@@ -1,0 +1,36 @@
+body {
+    background-color: #2D2D34;
+}
+.first {
+    border-right: 6px double blueviolet;
+    border-bottom: 4px solid #ED1C24;
+    border-left: 4px solid #F1D302;
+    border-top: 6px double #72B01D;
+    margin: 50px;
+    height: 450px;
+    width: auto;
+}
+.first:hover{
+background-color:black ;
+}
+.me {
+    color:whitesmoke;
+    font-family: "papyrus",fantasy;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    border: 2px solid #FF005E;
+    padding: 40px;
+
+}
+.me:hover {
+    box-shadow: 0 8px 20px 0 #00A2FF;
+    color:#54FF68;
+    cursor: progress;
+    background-color:#3d0e57;
+
+  }
+
