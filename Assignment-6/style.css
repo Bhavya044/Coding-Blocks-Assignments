@@ -1,0 +1,41 @@
+body {
+    animation: mymove 4s infinite;
+
+}
+@keyframes mymove {
+    0% {
+        background-color: blueviolet;
+    }
+    25% {
+        background-color: #A23B72;
+    }
+    50% {
+        background-color: #7F7CAF;
+    }
+    75% {
+        background-color: #E0B0D5;
+    }
+    100% {
+        background-color: #E5D0E3;
+    }
+
+}
+.heading {
+    font-size: 10vw;
+    font-family: 'Allison', cursive;
+    text-shadow: 5px 5px #CCFF66;
+}
+.mycard {
+    background-color: #7C98B3;
+    width: 60vw;
+    text-align: center;
+    margin-left: 20vw;
+}
+.text {
+    width: 40vw;
+    padding: 10px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: 2px solid red;
+    border-radius: 4px;
+}
